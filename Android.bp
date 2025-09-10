@@ -4,7 +4,7 @@
 
 soong_namespace {
     imports: [
-        "device/zte/akershus",
+        "device/oppo/findx",
         "hardware/qcom-caf/sdm845",
         "hardware/qcom-caf/wlan",
         "vendor/qcom/opensource/commonsys-intf/display",
@@ -16,7 +16,7 @@ soong_namespace {
 
 cc_prebuilt_library_shared {
     name: "eglSubDriverAndroid",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -64,7 +64,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libEGL_adreno",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -110,7 +110,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGLESv1_CM_adreno",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -154,7 +154,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGLESv2_adreno",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -202,7 +202,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libq3dtools_adreno",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -244,7 +244,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libq3dtools_esx",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -286,7 +286,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vulkan.adreno",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -338,7 +338,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libC2D2",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -379,7 +379,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCB",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -424,7 +424,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOpenCL",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -463,7 +463,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libQSEEComAPI",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -504,7 +504,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVkLayer_q3dtools",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -541,7 +541,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadreno_utils",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -578,7 +578,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadsp_default_listener",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -617,7 +617,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadsprpc",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -656,7 +656,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libc2d30_bltlib",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -697,7 +697,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcdsp_default_listener",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -736,7 +736,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcdsprpc",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -775,7 +775,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdiag",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -814,7 +814,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdsutils",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -859,7 +859,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfastcvdsp_stub",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -898,7 +898,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfastcvopt",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -943,7 +943,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgpudataproducer",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -982,7 +982,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgsl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1025,7 +1025,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libidl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1060,7 +1060,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libllvm-glnext",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1097,7 +1097,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libllvm-qcom",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1132,7 +1132,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmdmdetect",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1173,7 +1173,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpvr",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1215,45 +1215,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libpwirispq",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libpwirispq.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc++",
-                "libdl",
-                "libc",
-                "libm",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libpwirispq.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc++",
-                "libdl",
-                "libc",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libqcmaputils",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1292,7 +1255,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1341,7 +1304,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_cci",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1384,7 +1347,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_client_helper",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1435,7 +1398,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_client_qmux",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1482,7 +1445,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_common_so",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1521,7 +1484,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_csi",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1564,7 +1527,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_encdec",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1603,7 +1566,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmiservices",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1640,7 +1603,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveBlobDescriptor",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1681,7 +1644,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveBlobDescriptor_stub",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1720,7 +1683,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveCommon",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1763,7 +1726,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveCommon_stub",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1800,7 +1763,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveObjectSegmentation",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1843,7 +1806,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveObjectSegmentation_stub",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1882,7 +1845,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveObjectTracker",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1925,7 +1888,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveObjectTracker_stub",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -1968,7 +1931,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscvePanorama",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2015,7 +1978,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscvePanorama_lite",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2060,7 +2023,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveScan3D",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2107,7 +2070,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdsprpc",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2146,7 +2109,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensorslog",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2183,7 +2146,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsns_device_mode_stub",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2226,7 +2189,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsns_fastRPC_util",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2267,7 +2230,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsns_low_lat_stream_stub",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2310,7 +2273,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsnsapi",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2357,7 +2320,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsnsdiaglog",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2406,7 +2369,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libssc",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2457,7 +2420,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libssc_default_listener",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2496,7 +2459,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsysmon_cdsp_skel",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2533,7 +2496,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libthermalclient",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2572,7 +2535,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtime_genoff",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2611,7 +2574,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvppclient",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2666,7 +2629,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvpphvx",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2707,7 +2670,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvpplibrary",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2758,7 +2721,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.vpp@1.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2801,7 +2764,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.vpp@1.2",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -2845,1112 +2808,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qti.ois.ois_bu63169",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/com.qti.ois.ois_bu63169.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.sensor.imx363",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/com.qti.sensor.imx363.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.sensor.s5k3t1sp_aux",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/com.qti.sensor.s5k3t1sp_aux.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.sensor.s5k3t1sp_front",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/com.qti.sensor.s5k3t1sp_front.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.arcsoft.node.capturebokeh",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.arcsoft.node.capturebokeh.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "libarcsoft_dualcam_refocus",
-                "libmpbase",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.arcsoft.node.realtimebokeh",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.arcsoft.node.realtimebokeh.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "libarcsoft_dualcam_refocus",
-                "libarcsoft_dualcam_portraitlighting",
-                "libmpbase",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.eisv2",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.eisv2.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.eisv3",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.eisv3.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.hvx.addconstant",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.hvx.addconstant.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.hvx.binning",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.hvx.binning.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.dummyrtb",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.dummyrtb.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.dummysat",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.dummysat.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.eisv2",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.eisv2.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libcdsprpc",
-                "libssc",
-                "libprotobuf-cpp-full-vendorcompat",
-                "libhardware",
-                "libcamera_metadata",
-                "libcom.qti.chinodeutils",
-                "libsync",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.eisv3",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.eisv3.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libcdsprpc",
-                "libssc",
-                "libprotobuf-cpp-full-vendorcompat",
-                "libhardware",
-                "libcamera_metadata",
-                "libcom.qti.chinodeutils",
-                "libsync",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.gpu",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.gpu.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.memcpy",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.memcpy.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.remosaic",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.remosaic.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcom.qti.chinodeutils",
-                "libremosaic_daemon",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.stich",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.stich.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.swregistration",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.swregistration.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.aec",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.aec.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.af",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.af.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.afd",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.afd.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.asd",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.asd.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.awb",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.awb.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.awbwrapper",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.awbwrapper.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.pdlib",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.pdlib.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.pdlibsony",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.pdlibsony.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.pdlibwrapper",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qtistatic.stats.aec",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qtistatic.stats.aec.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qtistatic.stats.af",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qtistatic.stats.af.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qtistatic.stats.awb",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qtistatic.stats.awb.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qtistatic.stats.pdlib",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qtistatic.stats.pdlib.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.zte.node.capturepostprocess",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.zte.node.capturepostprocess.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "libcamxskinbeautiful",
-                "libcamxselfiebokeh",
-                "libcamxeffect",
-                "libcamxwidelencalc",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.zte.node.realtimepostprocess",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.zte.node.realtimepostprocess.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "libcamxskinbeautiful",
-                "libcamxselfiebokeh",
-                "libcamxmoviesolid",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.zte.node.videopostprocess",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.zte.node.videopostprocess.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "libcamxskinbeautiful",
-                "libcamxeffect",
-                "libcamxmoviesolid",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "camera.qcom",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/camera.qcom.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libcdsprpc",
-                "libssc",
-                "libprotobuf-cpp-full-vendorcompat",
-                "libhardware",
-                "libqdMetaData",
-                "libcamera_metadata",
-                "libcamxfdengine",
-                "libcamxstatscore",
-                "libsync",
-                "libz",
-                "libdl",
-                "libc",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.chi.override",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/com.qti.chi.override.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libcamxskinbeautiful",
-                "libcamxmoviesolid",
-                "libcamera_metadata",
-                "libhardware",
-                "libsync",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libFNVfbEngineHAL",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libFNVfbEngineHAL.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libEGL",
-                "libnativewindow",
-                "libGLESv3",
-                "libm",
-                "libdl",
-                "libc",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libOmxVpp",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -3984,39 +2843,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libZEffectLib",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libZEffectLib.so",
-            ],
-            shared_libs: [
-                "libui_shim",
-                "libcutils",
-                "libEGL",
-                "libGLESv2",
-                "libutils",
-                "libui",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libacdb-fts",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4044,7 +2872,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libacdbloader",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4076,7 +2904,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libacdbrtac",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4104,7 +2932,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadiertac",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4132,7 +2960,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadm",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4159,7 +2987,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadpcmdec",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4182,82 +3010,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libalhLDC",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libalhLDC.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libdl",
-                "libc",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libarcsoft_dualcam_portraitlighting",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libarcsoft_dualcam_portraitlighting.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "liblog",
-                "libdl",
-                "libc",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libarcsoft_dualcam_refocus",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libarcsoft_dualcam_refocus.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "liblog",
-                "libdl",
-                "libc",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libaudcal",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4284,7 +3038,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudio_log_utils",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4312,7 +3066,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudioalsa",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4336,7 +3090,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudioparsers",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4361,258 +3115,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libcamxeffect",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libcamxeffect.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcutils",
-                "libcom.qti.chinodeutils",
-                "libZEffectLib",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcamxfdalgov7",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libcamxfdalgov7.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libdl",
-                "libc",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcamxfdengine",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libcamxfdengine.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libcamxfdalgov7",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcamxmoviesolid",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libcamxmoviesolid.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcutils",
-                "libcom.qti.chinodeutils",
-                "libtsvideoprocess",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcamxselfiebokeh",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libcamxselfiebokeh.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcutils",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcamxskinbeautiful",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libcamxskinbeautiful.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "libfn_facebeauty",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcamxstatscore",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libcamxstatscore.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcamxtintlessalgo",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libcamxtintlessalgo.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcamxwidelencalc",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libcamxwidelencalc.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcutils",
-                "libcom.qti.chinodeutils",
-                "libalhLDC",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libcapiv2svacnn",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4638,7 +3142,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcapiv2vop",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4663,34 +3167,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libcom.qti.chinodeutils",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libcom.qti.chinodeutils.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libcsd-client",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4721,7 +3199,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfastcrc",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4746,65 +3224,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libfn_facebeauty",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libfn_facebeauty.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libFNVfbEngineHAL",
-                "libfnxml",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libfnxml",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libfnxml.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libdl",
-                "libxml2",
-                "libc++",
-                "libc",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libgcs-calwrapper",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4830,7 +3251,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgcs-ipc",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4857,7 +3278,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgcs-osal",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4882,7 +3303,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgcs",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4910,7 +3331,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblistenjni",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4937,7 +3358,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblistensoundmodel2",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -4962,103 +3383,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmdsprpc",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libmdsprpc.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmmcamera_faceproc",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libmmcamera_faceproc.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libdl",
-                "libc",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmmcamera_faceproc2",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libmmcamera_faceproc2.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libdl",
-                "libc",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmpbase",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libmpbase.so",
-            ],
-            shared_libs: [
-                "libc",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmulawdec",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5081,26 +3407,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libpn553_fw",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib/libpn553_fw.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libqtigef",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5125,36 +3433,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libremosaic_daemon",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libremosaic_daemon.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libdl",
-                "libbinder",
-                "libc++",
-                "libc",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libsmwrapper",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5179,64 +3459,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libswregistrationalgo",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libswregistrationalgo.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libcdsprpc",
-                "libssc",
-                "libprotobuf-cpp-full-vendorcompat",
-                "libz",
-                "libstdc++_vendor",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libtsvideoprocess",
-    owner: "zte",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libtsvideoprocess.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libstdc++_vendor",
-                "libm",
-                "libc",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libasphere",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5263,7 +3487,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libshoebox",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5290,7 +3514,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvolumelistener",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5318,7 +3542,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "btaudio_offload_if",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5336,6 +3560,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "android.hardware.bluetooth.audio@2.0",
+                "vendor.oppo.hardware.bluetooth_audio@1.0",
                 "libbluetooth_audio_session",
                 "libbluetooth_audio_session_qti",
                 "libc++",
@@ -5351,24 +3576,107 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.fingerprints.extension@1.0",
-    owner: "zte",
+    name: "com.qti.sensor.imx376k",
+    owner: "oppo",
     strip: {
         none: true,
     },
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/com.fingerprints.extension@1.0.so",
+                "proprietary/vendor/lib64/camera/com.qti.sensor.imx376k.so",
             ],
             shared_libs: [
-                "libhidlbase-v32",
-                "libhidltransport",
-                "libhwbinder",
-                "liblog",
-                "libutils",
+                "libc++",
                 "libcutils",
-                "android.hidl.base@1.0",
+                "liblog",
+                "qcom.camera.log",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.sensor.imx519",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.qti.sensor.imx519.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.sensor.imx576",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.qti.sensor.imx576.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.oppo.node.bokeh",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.oppo.node.bokeh.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "qcom.camera.log",
+                "liboppo_platform_hwi",
+                "libocam_common",
+                "liblog",
                 "libc++",
                 "libc",
                 "libm",
@@ -5377,6 +3685,1343 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.oppo.node.frontbokeh",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.oppo.node.frontbokeh.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "qcom.camera.log",
+                "liboppo_platform_hwi",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.oppo.node.frontrtb",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.oppo.node.frontrtb.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "qcom.camera.log",
+                "liboppo_platform_hwi",
+                "libocam_common",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.oppo.node.oppoengmode",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.oppo.node.oppoengmode.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "qcom.camera.log",
+                "libopposfr",
+                "vendor.oppo.hardware.camera.oppoHalAssist@1.0-impl",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.oppo.node.postview",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.oppo.node.postview.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "qcom.camera.log",
+                "liboppo_platform_hwi",
+                "libocam_common",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.oppo.node.preview",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.oppo.node.preview.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "qcom.camera.log",
+                "liboppo_platform_hwi",
+                "libocam_common",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.oppo.node.rearrtb",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.oppo.node.rearrtb.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "qcom.camera.log",
+                "libocam_common",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.oppo.node.slicm",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.oppo.node.slicm.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libbokehclient",
+                "libcom.qti.chinodeutils",
+                "qcom.camera.log",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.oppo.node.snapshota",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.oppo.node.snapshota.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "qcom.camera.log",
+                "liboppo_platform_hwi",
+                "libocam_common",
+                "libocam_snapshot_intf",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.oppo.node.snapshotb",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.oppo.node.snapshotb.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "qcom.camera.log",
+                "liboppo_platform_hwi",
+                "libocam_common",
+                "libocam_snapshot_intf",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.oppo.node.tof",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.oppo.node.tof.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "qcom.camera.log",
+                "liboppo_platform_hwi",
+                "libocam_common",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.oppo.node.tofmatch",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.oppo.node.tofmatch.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "qcom.camera.log",
+                "liboppo_platform_hwi",
+                "libocam_common",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.eisv2",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.eisv2.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.eisv3",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.eisv3.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.hvx.addconstant",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.hvx.addconstant.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.hvx.binning",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.hvx.binning.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.dummyrtb",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.dummyrtb.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.dummysat",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.dummysat.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.eisv2",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.eisv2.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libxml2",
+                "libutils",
+                "libcdsprpc",
+                "libutilscallstack",
+                "libsnsapi",
+                "libqmi_common_so",
+                "libqmi_cci",
+                "libqmi_encdec",
+                "libprotobuf-cpp-full-vendorcompat",
+                "libhardware",
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "libsync",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.eisv3",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.eisv3.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libxml2",
+                "libutils",
+                "libcdsprpc",
+                "libutilscallstack",
+                "libsnsapi",
+                "libqmi_common_so",
+                "libqmi_cci",
+                "libqmi_encdec",
+                "libprotobuf-cpp-full-vendorcompat",
+                "libhardware",
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "libsync",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.gpu",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.gpu.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "libsync",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.memcpy",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.memcpy.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.opposwremosaic",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.opposwremosaic.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libcamera_metadata",
+                "libSonyIMX471RmscLibrary",
+                "libcom.qti.chinodeutils",
+                "vendor.oppo.hardware.camera.oppoHalAssist@1.0-impl",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.remosaic",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.remosaic.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libcamera_metadata",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.stich",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.stich.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.superphoto",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.superphoto.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "qcom.camera.log",
+                "liboppo_platform_hwi",
+                "libocam_common",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.swregistration",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.swregistration.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libcamera_metadata",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.aec",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.aec.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.af",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.af.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.afd",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.afd.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.asd",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.asd.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.awb",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.awb.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.awbwrapper",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.awbwrapper.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libsync",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.haf",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.haf.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.localhistogram",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.localhistogram.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.pdlib",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.pdlib.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.pdlibsony",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibsony.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.pdlibwrapper",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qtistatic.stats.aec",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qtistatic.stats.aec.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libsync",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qtistatic.stats.af",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qtistatic.stats.af.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libsync",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qtistatic.stats.awb",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qtistatic.stats.awb.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libsync",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qtistatic.stats.pdlib",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libsync",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.slam.node.process",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.slam.node.process.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "qcom.camera.log",
+                "liboppo_platform_hwi",
+                "libocam_common",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.vidhance.node.eis",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.vidhance.node.eis.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "libvidhance",
+                "libutils",
+                "qcom.camera.log",
+                "libcutils",
+                "libui",
+                "libsensorslog",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.vidhance.stats.aec_dmbr",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libhidlbase",
+                "libhidltransport",
+                "android.frameworks.sensorservice@1.0",
+                "libvidhance",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
     prefer: true,
     soc_specific: true,
 }
@@ -5384,7 +5029,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.ant@1.0_vendor",
     stem: "com.qualcomm.qti.ant@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5415,7 +5060,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.dpm.api@1.0_vendor",
     stem: "com.qualcomm.qti.dpm.api@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5444,7 +5089,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@1.0_vendor",
     stem: "com.qualcomm.qti.imscmservice@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5473,7 +5118,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@2.0_vendor",
     stem: "com.qualcomm.qti.imscmservice@2.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5502,7 +5147,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@2.1_vendor",
     stem: "com.qualcomm.qti.imscmservice@2.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5532,7 +5177,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@2.2_vendor",
     stem: "com.qualcomm.qti.imscmservice@2.2",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5563,7 +5208,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.uceservice@2.0_vendor",
     stem: "com.qualcomm.qti.uceservice@2.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5592,7 +5237,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.uceservice@2.1_vendor",
     stem: "com.qualcomm.qti.uceservice@2.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5622,7 +5267,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.uceservice@2.2_vendor",
     stem: "com.qualcomm.qti.uceservice@2.2",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5652,7 +5297,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.bluetooth@1.0-impl-qti",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5688,7 +5333,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.gatekeeper@1.0-impl-qti",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5721,7 +5366,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.gnss@2.1-impl-qti",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5765,7 +5410,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.keymaster@3.0-impl-qti",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5798,8 +5443,89 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "camera.qcom",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/camera.qcom.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libxml2",
+                "libutils",
+                "libcdsprpc",
+                "libutilscallstack",
+                "libsnsapi",
+                "libqmi_common_so",
+                "libqmi_cci",
+                "libqmi_encdec",
+                "libprotobuf-cpp-full-vendorcompat",
+                "libhardware",
+                "libqdMetaData",
+                "libcamera_metadata",
+                "libcamxfdengine",
+                "libcamxstatscore",
+                "libsync",
+                "libz",
+                "libdl",
+                "libc",
+                "libm",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.chi.override",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/com.qti.chi.override.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libcamera_metadata",
+                "libhardware",
+                "libsync",
+                "libutils",
+                "libbinder",
+                "libprocessgroup",
+                "vendor.oppo.hardware.hypnus@1.0",
+                "libhypnusclient",
+                "libutilscallstack",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.ant@1.0-impl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5833,8 +5559,41 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.oppo.hardware.camera.oppoHalAssist@1.0-impl",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/vendor.oppo.hardware.camera.oppoHalAssist@1.0-impl.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "android.hidl.base@1.0",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libhidlbase",
+                "libion",
+                "vendor.oppo.hardware.camera.oppoHalAssist@1.0",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.qti.esepowermanager@1.0-impl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5867,7 +5626,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@4.0-impl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5914,7 +5673,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.alarm@1.0-impl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5946,7 +5705,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_audio@2.0-impl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -5981,7 +5740,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_sar@1.0-impl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6017,7 +5776,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.btconfigstore@1.0-impl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6051,7 +5810,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.capabilityconfigstore@1.0-impl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6085,7 +5844,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qteeconnector@1.0-impl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6119,7 +5878,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.sensorscalibrate@1.0-impl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6153,7 +5912,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.soter@1.0-impl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6188,7 +5947,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imscmservice",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6221,7 +5980,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsdpl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6254,7 +6013,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsqimf",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6281,7 +6040,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsrcs-v2",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6333,7 +6092,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsrcsbaseimpl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6376,7 +6135,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsvtcore",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6409,7 +6168,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsxml",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6436,7 +6195,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-rcsconfig",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6474,7 +6233,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-rtpcommon",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6503,7 +6262,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-rtpcore",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6534,7 +6293,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-rtpsl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6566,7 +6325,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-siputility",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6594,7 +6353,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-uceservice",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6631,7 +6390,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGPQTEEC_vendor",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6662,7 +6421,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGPTEE_vendor",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6689,7 +6448,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGPreqcancel",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6719,7 +6478,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGPreqcancel_svc",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6745,8 +6504,33 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libPolarrRender",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libPolarrRender.so",
+            ],
+            shared_libs: [
+                "libGLESv3",
+                "libEGL",
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libQTEEConnector_vendor",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6776,7 +6560,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSecureUILib",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6807,8 +6591,33 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libSonyIMX471RmscLibrary",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libSonyIMX471RmscLibrary.so",
+            ],
+            shared_libs: [
+                "libOpenCL",
+                "libm",
+                "liblog",
+                "libc",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libStDrvInt",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6833,7 +6642,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaoa",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6857,7 +6666,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbatching",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6886,7 +6695,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetooth_audio_session_qti",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6918,8 +6727,36 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libbokehclient",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libbokehclient.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libQSEEComAPI",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libbtnv",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6943,7 +6780,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcacertclient",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6971,8 +6808,235 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libcamera_core_hwi",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamera_core_hwi.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libocam_common",
+                "libstface_fd_api",
+                "libmpbase",
+                "libPolarrRender",
+                "libEGL",
+                "libGLESv2",
+                "libcrypto",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamera_nn_stub",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamera_nn_stub.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libcdsprpc",
+                "libqdMetaData",
+                "libsnsapi",
+                "libqmi_common_so",
+                "libqmi_cci",
+                "libqmi_encdec",
+                "libprotobuf-cpp-full-vendorcompat",
+                "libhardware",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamxfdalgov7",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamxfdalgov7.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libdl",
+                "libc",
+                "libm",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamxfdalgov8",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamxfdalgov8.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libdl",
+                "libc",
+                "libm",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamxfdengine",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamxfdengine.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcamera_nn_stub",
+                "libcdsprpc",
+                "libcamxfdalgov7",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamxstatscore",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamxstatscore.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamxswprocessalgo",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamxswprocessalgo.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamxtintlessalgo",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamxtintlessalgo.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libcdfw_remote_api",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -6998,7 +7062,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcne",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7050,7 +7114,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcneapiclient",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7084,7 +7148,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcneoplookup",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7110,7 +7174,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcneqmiutils",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7134,8 +7198,36 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libcom.qti.chinodeutils",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcom.qti.chinodeutils.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "libcamera_metadata",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libconfigdb",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7163,7 +7255,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcpion",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7188,7 +7280,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdataitems",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7216,7 +7308,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdisp-aba",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7242,7 +7334,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdisplayqos",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7266,7 +7358,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpmqmihal",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7298,7 +7390,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdrmfs",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7328,7 +7420,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdrmtime",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7358,7 +7450,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdsi_netctrl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7395,7 +7487,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgdtap",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7426,7 +7518,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgeofencing",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7455,7 +7547,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgnss",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7484,7 +7576,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgnsspps",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7512,7 +7604,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgps.utils",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7540,7 +7632,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhdr_tm",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7569,7 +7661,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhexagon_nn_stub",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7595,8 +7687,42 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libhypnusclient",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libhypnusclient.so",
+            ],
+            shared_libs: [
+                "libbinder",
+                "libhardware_legacy",
+                "liblog",
+                "libcutils",
+                "libbase",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libutils",
+                "vendor.oppo.hardware.hypnus@1.0",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libizat_client_api",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7622,7 +7748,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libizat_core",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7653,7 +7779,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libjnihelper",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7682,7 +7808,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkeymasterdeviceutils",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7711,7 +7837,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkeymasterprovision",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7739,7 +7865,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkeymasterutils",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7767,7 +7893,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblbs_core",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7803,7 +7929,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libloc_api_v02",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7834,7 +7960,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libloc_core",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7862,7 +7988,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libloc_socket",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7891,7 +8017,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblocation_api",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7919,7 +8045,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblocationservice",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7952,7 +8078,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblocationservice_glue",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -7986,7 +8112,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblowi_client",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8013,7 +8139,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblowi_wifihal",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8042,7 +8168,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblqe",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8073,8 +8199,34 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libmdsprpc",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libmdsprpc.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libminkdescriptor",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8101,7 +8253,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libminksocket",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8127,9 +8279,57 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libmmcamera_faceproc",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libmmcamera_faceproc.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libdl",
+                "libc",
+                "libm",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmmcamera_faceproc2",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libmmcamera_faceproc2.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libdl",
+                "libc",
+                "libm",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libmmosal_vendor",
     stem: "libmmosal",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8155,8 +8355,29 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libmpbase",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libmpbase.so",
+            ],
+            shared_libs: [
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libnetmgr",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8186,7 +8407,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnetmgr_common",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8218,7 +8439,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnetmgr_nr_fusion",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8250,7 +8471,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnetmgr_rmnet_ext",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8282,7 +8503,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnlnetmgr",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8310,8 +8531,124 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libocam_common",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libocam_common.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libexif",
+                "libjpeg",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libocam_snapshot_intf",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libocam_snapshot_intf.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "qcom.camera.log",
+                "libocam_common",
+                "liboppo_platform_hwi",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liboppo_platform_hwi",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/liboppo_platform_hwi.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libhardware",
+                "libcamera_metadata",
+                "libcamera_core_hwi",
+                "libocam_common",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libopposfr",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libopposfr.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libpdmapper",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8342,7 +8679,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpdnotifier",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8372,7 +8709,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libperipheral_client",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8401,7 +8738,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcbor",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8427,7 +8764,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcc_file_agent",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8459,7 +8796,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcrilFramework",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8487,7 +8824,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcrildatactl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8513,7 +8850,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqdi",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8546,7 +8883,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqdma_file_agent",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8578,7 +8915,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqdp",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8609,7 +8946,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqisl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8636,7 +8973,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqrtr",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8660,7 +8997,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqseed3",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8684,7 +9021,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqsocket",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8708,7 +9045,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librcc",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8736,7 +9073,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril-qc-hal-qmi",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8838,7 +9175,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril-qc-logger",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8865,7 +9202,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril-qc-ltedirectdisc",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8889,7 +9226,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril-qc-radioconfig",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8913,7 +9250,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril-qcril-hook-oem",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8941,7 +9278,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librilqmiservices",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8966,7 +9303,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librpmb",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -8993,7 +9330,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdedrm",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9020,7 +9357,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdm-color",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9050,7 +9387,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdm-diag",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9078,7 +9415,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdm-disp-vndapis",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9108,7 +9445,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdmextension",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9136,7 +9473,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsecureui",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9170,7 +9507,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsecureui_svcsock",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9201,7 +9538,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensorcal",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9231,7 +9568,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsettings",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9259,7 +9596,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libslimclient",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9290,7 +9627,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libspcom",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9318,7 +9655,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libspl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9345,7 +9682,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libssd",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9373,8 +9710,33 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libstface_fd_api",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libstface_fd_api.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libz",
+                "libm",
+                "libc",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libsystem_health_mon",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9401,7 +9763,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtinyxml2_1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9425,7 +9787,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtrustedapploader",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9453,7 +9815,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtzdrmgenprov",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9480,8 +9842,38 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libvidhance",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libvidhance.so",
+            ],
+            shared_libs: [
+                "libcomparetf2_shim",
+                "libdemangle",
+                "libGLESv3",
+                "libEGL",
+                "libGLESv2",
+                "libdl",
+                "libm",
+                "liblog",
+                "libc++",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libwms",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9517,7 +9909,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwqe",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9558,7 +9950,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwvhidl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9595,7 +9987,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libxml",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9622,7 +10014,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libxtadapter",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9650,7 +10042,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwvdrmengine",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9681,8 +10073,34 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "qcom.camera.log",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/qcom.camera.log.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "qcrild_librilutils",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9706,7 +10124,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "qtibus",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9734,7 +10152,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "qtimutex",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9759,7 +10177,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sensors.ssc",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9794,7 +10212,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "unnhal-acc-adreno",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9820,7 +10238,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "unnhal-acc-common",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9861,7 +10279,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "unnhal-acc-hvx",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9895,7 +10313,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9923,7 +10341,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9952,7 +10370,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.2",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -9982,7 +10400,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.3",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10013,7 +10431,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.4",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10045,7 +10463,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.5",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10078,7 +10496,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.postproc@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10105,8 +10523,98 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.oppo.hardware.bluetooth_audio@1.0",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.oppo.hardware.bluetooth_audio@1.0.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.oppo.hardware.camera.oppoHalAssist@1.0",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.oppo.hardware.camera.oppoHalAssist@1.0.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.oppo.hardware.hypnus@1.0",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.qti.data.factory@2.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10141,7 +10649,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.factory@2.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10179,7 +10687,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.slm@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10207,7 +10715,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.esepowermanager@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10237,7 +10745,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10266,7 +10774,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@1.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10296,7 +10804,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@1.2",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10327,7 +10835,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@2.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10359,7 +10867,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@2.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10392,7 +10900,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@3.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10426,7 +10934,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@4.0-service",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10467,7 +10975,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@4.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10502,7 +11010,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.alarm@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10530,7 +11038,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_sar@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10560,7 +11068,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.cacert@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10591,7 +11099,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.cne.internal.api@1.0_vendor",
     stem: "vendor.qti.hardware.data.cne.internal.api@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10621,7 +11129,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor",
     stem: "vendor.qti.hardware.data.cne.internal.constants@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10650,7 +11158,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.cne.internal.server@1.0_vendor",
     stem: "vendor.qti.hardware.data.cne.internal.server@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10680,7 +11188,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.connection@1.0_vendor",
     stem: "vendor.qti.hardware.data.connection@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10709,7 +11217,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.connection@1.1_vendor",
     stem: "vendor.qti.hardware.data.connection@1.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10739,7 +11247,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.dynamicdds@1.0_vendor",
     stem: "vendor.qti.hardware.data.dynamicdds@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10768,7 +11276,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.iwlan@1.0_vendor",
     stem: "vendor.qti.hardware.data.iwlan@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10801,7 +11309,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.latency@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10830,7 +11338,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.qmi@1.0_vendor",
     stem: "vendor.qti.hardware.data.qmi@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10858,7 +11366,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.fm@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10888,7 +11396,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qccsyshal@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10916,7 +11424,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qteeconnector@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10946,7 +11454,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.am@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -10974,7 +11482,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.atcmdfwd@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11003,7 +11511,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.0_vendor",
     stem: "vendor.qti.hardware.radio.ims@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11032,7 +11540,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.1_vendor",
     stem: "vendor.qti.hardware.radio.ims@1.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11062,7 +11570,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.2_vendor",
     stem: "vendor.qti.hardware.radio.ims@1.2",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11093,7 +11601,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.3_vendor",
     stem: "vendor.qti.hardware.radio.ims@1.3",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11125,7 +11633,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.4_vendor",
     stem: "vendor.qti.hardware.radio.ims@1.4",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11157,7 +11665,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.5",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11190,7 +11698,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.6",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11224,7 +11732,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.internal.deviceinfo@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11252,7 +11760,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.lpa@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11280,7 +11788,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qcrilhook@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11308,7 +11816,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11336,7 +11844,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11366,7 +11874,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11397,7 +11905,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.2",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11429,7 +11937,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.3",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11462,7 +11970,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.4",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11497,7 +12005,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11525,7 +12033,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim@1.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11554,7 +12062,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim@1.2",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11584,7 +12092,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim_remote_client@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11612,7 +12120,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim_remote_client@1.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11641,7 +12149,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim_remote_client@1.2",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11671,7 +12179,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim_remote_server@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11699,7 +12207,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.sensorscalibrate@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11709,7 +12217,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so",
             ],
             shared_libs: [
-                "libhidlbase-v32",
+                "libhidlbase",
                 "libhidltransport",
                 "libhwbinder",
                 "liblog",
@@ -11729,7 +12237,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.slmadapter@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11757,7 +12265,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.soter@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11787,7 +12295,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.tui_comm@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11817,7 +12325,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.callcapability@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11846,7 +12354,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.callinfo@1.0_vendor",
     stem: "vendor.qti.ims.callinfo@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11874,7 +12382,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.factory@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11905,7 +12413,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.rcsconfig@1.0_vendor",
     stem: "vendor.qti.ims.rcsconfig@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11933,7 +12441,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.rcsconfig@1.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11962,7 +12470,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.rcsconfig@2.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -11990,7 +12498,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.rcsconfig@2.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12019,7 +12527,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.imsrtpservice@3.0-service-Impl",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12053,7 +12561,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.imsrtpservice@3.0_vendor",
     stem: "vendor.qti.imsrtpservice@3.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12081,7 +12589,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.latency@2.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12110,7 +12618,7 @@ cc_prebuilt_library_shared {
 prebuilt_rfsa {
     name: "libFastRPC_UTF_Forward_skel",
     filename: "libFastRPC_UTF_Forward_skel.so",
-    owner: "zte",
+    owner: "oppo",
     src: "proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -12119,7 +12627,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libVC1Dec",
     filename: "libVC1Dec.so",
-    owner: "zte",
+    owner: "oppo",
     src: "proprietary/vendor/lib/rfsa/adsp/libVC1Dec.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -12128,7 +12636,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libVC1DecDsp_skel",
     filename: "libVC1DecDsp_skel.so",
-    owner: "zte",
+    owner: "oppo",
     src: "proprietary/vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -12137,7 +12645,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libapps_mem_heap",
     filename: "libapps_mem_heap.so",
-    owner: "zte",
+    owner: "oppo",
     src: "proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -12146,35 +12654,8 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libdspCV_skel",
     filename: "libdspCV_skel.so",
-    owner: "zte",
+    owner: "oppo",
     src: "proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so",
-    relative_install_path: "adsp",
-    soc_specific: true,
-}
-
-prebuilt_rfsa {
-    name: "libdsp_streamer_add_constant",
-    filename: "libdsp_streamer_add_constant.so",
-    owner: "zte",
-    src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_add_constant.so",
-    relative_install_path: "adsp",
-    soc_specific: true,
-}
-
-prebuilt_rfsa {
-    name: "libdsp_streamer_binning",
-    filename: "libdsp_streamer_binning.so",
-    owner: "zte",
-    src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_binning.so",
-    relative_install_path: "adsp",
-    soc_specific: true,
-}
-
-prebuilt_rfsa {
-    name: "libdsp_streamer_skel",
-    filename: "libdsp_streamer_skel.so",
-    owner: "zte",
-    src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
 }
@@ -12182,7 +12663,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libfastcvadsp",
     filename: "libfastcvadsp.so",
-    owner: "zte",
+    owner: "oppo",
     src: "proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -12191,7 +12672,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libfastcvdsp_skel",
     filename: "libfastcvdsp_skel.so",
-    owner: "zte",
+    owner: "oppo",
     src: "proprietary/vendor/lib/rfsa/adsp/libfastcvdsp_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -12200,7 +12681,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libhexagon_nn_skel",
     filename: "libhexagon_nn_skel.so",
-    owner: "zte",
+    owner: "oppo",
     src: "proprietary/vendor/lib/rfsa/adsp/libhexagon_nn_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -12209,7 +12690,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libscveBlobDescriptor_skel",
     filename: "libscveBlobDescriptor_skel.so",
-    owner: "zte",
+    owner: "oppo",
     src: "proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -12218,7 +12699,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libscveObjectSegmentation_skel",
     filename: "libscveObjectSegmentation_skel.so",
-    owner: "zte",
+    owner: "oppo",
     src: "proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -12227,7 +12708,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libscveT2T_skel",
     filename: "libscveT2T_skel.so",
-    owner: "zte",
+    owner: "oppo",
     src: "proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -12236,7 +12717,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libsns_device_mode_skel",
     filename: "libsns_device_mode_skel.so",
-    owner: "zte",
+    owner: "oppo",
     src: "proprietary/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -12245,7 +12726,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libsns_low_lat_stream_skel",
     filename: "libsns_low_lat_stream_skel.so",
-    owner: "zte",
+    owner: "oppo",
     src: "proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -12253,7 +12734,7 @@ prebuilt_rfsa {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.ant@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12283,7 +12764,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.dpm.api@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12311,7 +12792,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12339,7 +12820,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@2.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12367,7 +12848,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@2.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12396,7 +12877,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@2.2",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12426,7 +12907,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.uceservice@2.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12454,7 +12935,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.uceservice@2.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12483,7 +12964,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.uceservice@2.2",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12513,7 +12994,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.quicinc.cne.api@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12542,7 +13023,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.quicinc.cne.api@1.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12572,7 +13053,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.quicinc.cne.constants@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12600,7 +13081,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.quicinc.cne.constants@2.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12628,7 +13109,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.quicinc.cne.constants@2.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12656,7 +13137,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsvideocodec",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12691,7 +13172,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsvt",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12727,7 +13208,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsvtextutils",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12758,7 +13239,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsvtutils",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12786,7 +13267,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libantradio",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12821,7 +13302,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdiag_system",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12853,7 +13334,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpmctmgr",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12883,7 +13364,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpmfdmgr",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12913,7 +13394,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpmframework",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12946,7 +13427,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpmtcm",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -12976,7 +13457,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimscamera_jni",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13004,7 +13485,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimsmedia_jni",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13035,7 +13516,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.diaghal@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13063,7 +13544,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.cne.internal.api@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13092,7 +13573,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.cne.internal.constants@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13120,7 +13601,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.cne.internal.server@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13149,7 +13630,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.connection@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13177,7 +13658,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.connection@1.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13206,7 +13687,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.dynamicdds@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13234,7 +13715,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.iwlan@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13267,7 +13748,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.qmi@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13295,7 +13776,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13323,7 +13804,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.1",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13352,7 +13833,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.2",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13382,7 +13863,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.3",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13413,7 +13894,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.4",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13445,7 +13926,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.callinfo@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13473,7 +13954,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.rcsconfig@1.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13501,7 +13982,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.imsrtpservice@3.0",
-    owner: "zte",
+    owner: "oppo",
     strip: {
         none: true,
     },
@@ -13529,7 +14010,7 @@ cc_prebuilt_library_shared {
 
 android_app_import {
     name: "CneApp",
-    owner: "zte",
+    owner: "oppo",
     apk: "proprietary/vendor/app/CneApp/CneApp.apk",
     certificate: "platform",
     dex_preopt: {
@@ -13540,7 +14021,7 @@ android_app_import {
 
 android_app_import {
     name: "IWlanService",
-    owner: "zte",
+    owner: "oppo",
     apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
     certificate: "platform",
     dex_preopt: {
@@ -13551,7 +14032,7 @@ android_app_import {
 
 android_app_import {
     name: "TimeService",
-    owner: "zte",
+    owner: "oppo",
     apk: "proprietary/vendor/app/TimeService/TimeService.apk",
     certificate: "platform",
     dex_preopt: {
@@ -13562,7 +14043,7 @@ android_app_import {
 
 android_app_import {
     name: "PowerOffAlarm",
-    owner: "zte",
+    owner: "oppo",
     apk: "proprietary/system_ext/app/PowerOffAlarm/PowerOffAlarm.apk",
     certificate: "platform",
     dex_preopt: {
@@ -13573,7 +14054,7 @@ android_app_import {
 
 android_app_import {
     name: "QtiTelephonyService",
-    owner: "zte",
+    owner: "oppo",
     apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
     certificate: "platform",
     dex_preopt: {
@@ -13584,7 +14065,7 @@ android_app_import {
 
 android_app_import {
     name: "uceShimService",
-    owner: "zte",
+    owner: "oppo",
     apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
     certificate: "platform",
     dex_preopt: {
@@ -13595,7 +14076,7 @@ android_app_import {
 
 android_app_import {
     name: "dpmserviceapp",
-    owner: "zte",
+    owner: "oppo",
     apk: "proprietary/system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk",
     certificate: "platform",
     dex_preopt: {
@@ -13607,7 +14088,7 @@ android_app_import {
 
 android_app_import {
     name: "ims",
-    owner: "zte",
+    owner: "oppo",
     apk: "proprietary/system_ext/priv-app/ims/ims.apk",
     certificate: "platform",
     dex_preopt: {
@@ -13619,7 +14100,7 @@ android_app_import {
 
 android_app_import {
     name: "qcrilmsgtunnel",
-    owner: "zte",
+    owner: "oppo",
     apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
     certificate: "platform",
     dex_preopt: {
@@ -13631,7 +14112,7 @@ android_app_import {
 
 dex_import {
     name: "audiosphere",
-    owner: "zte",
+    owner: "oppo",
     jars: [
         "proprietary/system/framework/audiosphere.jar",
     ],
@@ -13639,7 +14120,7 @@ dex_import {
 
 dex_import {
     name: "tcmclient",
-    owner: "zte",
+    owner: "oppo",
     jars: [
         "proprietary/system/framework/tcmclient.jar",
     ],
@@ -13647,7 +14128,7 @@ dex_import {
 
 dex_import {
     name: "com.qti.dpmframework",
-    owner: "zte",
+    owner: "oppo",
     jars: [
         "proprietary/system_ext/framework/com.qti.dpmframework.jar",
     ],
@@ -13656,7 +14137,7 @@ dex_import {
 
 dex_import {
     name: "com.quicinc.cne.api-V1.1-java",
-    owner: "zte",
+    owner: "oppo",
     jars: [
         "proprietary/system_ext/framework/com.quicinc.cne.api-V1.1-java.jar",
     ],
@@ -13665,7 +14146,7 @@ dex_import {
 
 dex_import {
     name: "com.quicinc.cne.constants-V1.0-java",
-    owner: "zte",
+    owner: "oppo",
     jars: [
         "proprietary/system_ext/framework/com.quicinc.cne.constants-V1.0-java.jar",
     ],
@@ -13674,7 +14155,7 @@ dex_import {
 
 dex_import {
     name: "com.quicinc.cne.constants-V2.0-java",
-    owner: "zte",
+    owner: "oppo",
     jars: [
         "proprietary/system_ext/framework/com.quicinc.cne.constants-V2.0-java.jar",
     ],
@@ -13683,7 +14164,7 @@ dex_import {
 
 dex_import {
     name: "com.quicinc.cne.constants-V2.1-java",
-    owner: "zte",
+    owner: "oppo",
     jars: [
         "proprietary/system_ext/framework/com.quicinc.cne.constants-V2.1-java.jar",
     ],
@@ -13692,7 +14173,7 @@ dex_import {
 
 dex_import {
     name: "dpmapi",
-    owner: "zte",
+    owner: "oppo",
     jars: [
         "proprietary/system_ext/framework/dpmapi.jar",
     ],
@@ -13701,7 +14182,7 @@ dex_import {
 
 dex_import {
     name: "qcrilhook",
-    owner: "zte",
+    owner: "oppo",
     jars: [
         "proprietary/system_ext/framework/qcrilhook.jar",
     ],
@@ -13710,7 +14191,7 @@ dex_import {
 
 dex_import {
     name: "vendor.qti.hardware.data.cne.internal.api-V1.0-java",
-    owner: "zte",
+    owner: "oppo",
     jars: [
         "proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar",
     ],
@@ -13719,7 +14200,7 @@ dex_import {
 
 dex_import {
     name: "vendor.qti.hardware.data.cne.internal.constants-V1.0-java",
-    owner: "zte",
+    owner: "oppo",
     jars: [
         "proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.constants-V1.0-java.jar",
     ],
@@ -13728,7 +14209,7 @@ dex_import {
 
 dex_import {
     name: "vendor.qti.hardware.data.connection-V1.0-java",
-    owner: "zte",
+    owner: "oppo",
     jars: [
         "proprietary/system_ext/framework/vendor.qti.hardware.data.connection-V1.0-java.jar",
     ],
@@ -13737,7 +14218,7 @@ dex_import {
 
 dex_import {
     name: "vendor.qti.hardware.data.connection-V1.1-java",
-    owner: "zte",
+    owner: "oppo",
     jars: [
         "proprietary/system_ext/framework/vendor.qti.hardware.data.connection-V1.1-java.jar",
     ],
@@ -13746,7 +14227,7 @@ dex_import {
 
 dex_import {
     name: "vendor.qti.hardware.data.dynamicdds-V1.0-java",
-    owner: "zte",
+    owner: "oppo",
     jars: [
         "proprietary/system_ext/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar",
     ],
@@ -13755,7 +14236,7 @@ dex_import {
 
 dex_import {
     name: "vendor.qti.hardware.data.iwlan-V1.0-java",
-    owner: "zte",
+    owner: "oppo",
     jars: [
         "proprietary/system_ext/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar",
     ],
@@ -13764,7 +14245,7 @@ dex_import {
 
 dex_import {
     name: "vendor.qti.hardware.data.qmi-V1.0-java",
-    owner: "zte",
+    owner: "oppo",
     jars: [
         "proprietary/system_ext/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar",
     ],
@@ -13773,7 +14254,7 @@ dex_import {
 
 prebuilt_etc_xml {
     name: "android.hardware.gnss@2.1-service-qti.xml",
-    owner: "zte",
+    owner: "oppo",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -13782,7 +14263,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "android.hardware.neuralnetworks@1.3-service-qti.xml",
-    owner: "zte",
+    owner: "oppo",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -13791,7 +14272,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "manifest_android.hardware.drm@1.3-service.widevine.xml",
-    owner: "zte",
+    owner: "oppo",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -13800,7 +14281,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "vendor.qti.gnss@4.0-service.xml",
-    owner: "zte",
+    owner: "oppo",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -13809,7 +14290,7 @@ prebuilt_etc_xml {
 
 cc_prebuilt_binary {
     name: "ATFWD-daemon",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -13846,7 +14327,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "adpl",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -13881,7 +14362,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "adsprpcd",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -13906,7 +14387,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "cdsprpcd",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -13931,7 +14412,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "cnd",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -13974,7 +14455,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "cnss-daemon",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14007,7 +14488,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "dpmQmiMgr",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14043,7 +14524,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "hvdcp_opti",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14069,42 +14550,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.biometrics.fingerprint@2.1-service-fpc1028",
-    owner: "zte",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc1028",
-            ],
-            shared_libs: [
-                "liblog",
-                "libhidlbase",
-                "libhidltransport",
-                "libutils",
-                "android.hardware.biometrics.fingerprint@2.1",
-                "com.fingerprints.extension@1.0",
-                "libcutils",
-                "libion",
-                "libQSEEComAPI",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "android.hardware.bluetooth@1.0-service-qti",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14141,7 +14588,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.drm@1.3-service.widevine",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14176,7 +14623,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.gatekeeper@1.0-service-qti",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14208,7 +14655,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.gnss@2.1-service-qti",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14244,7 +14691,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.keymaster@3.0-service-qti",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14279,7 +14726,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.neuralnetworks@1.3-service-qti",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14322,7 +14769,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "qcrild",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14352,7 +14799,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.display.color@1.0-service",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14391,7 +14838,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.esepowermanager@1.0-service",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14427,7 +14874,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.alarm@1.0-service",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14459,7 +14906,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.capabilityconfigstore@1.0-service",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14493,7 +14940,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.qteeconnector@1.0-service",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14524,7 +14971,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.sensorscalibrate@1.0-service",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14535,7 +14982,7 @@ cc_prebuilt_binary {
                 "libcutils",
                 "libbase",
                 "libutils",
-                "libhidlbase-v32",
+                "libhidlbase",
                 "libhidltransport",
                 "vendor.qti.hardware.sensorscalibrate@1.0",
                 "libc++",
@@ -14556,7 +15003,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.soter@1.0-service",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14587,7 +15034,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.tui_comm@1.0-service-qti",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14622,7 +15069,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ims_rtp_daemon",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14662,7 +15109,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "imsdatadaemon",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14698,7 +15145,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "imsqmidaemon",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14729,7 +15176,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "imsrcsd",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14758,7 +15205,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "irsc_util",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14783,7 +15230,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ks",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14810,7 +15257,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "loc_launcher",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14839,7 +15286,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "lowi-server",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14871,7 +15318,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "mlid",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14898,7 +15345,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "mm-pp-dpps",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14934,7 +15381,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "msm_irqbalance",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -14961,7 +15408,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "netmgrd",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15008,7 +15455,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "pd-mapper",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15040,7 +15487,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "pm-proxy",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15068,7 +15515,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "pm-service",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15102,7 +15549,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "port-bridge",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15129,7 +15576,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "power_off_alarm",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15155,7 +15602,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ppd",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15181,7 +15628,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "qrtr-cfg",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15206,7 +15653,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "qrtr-lookup",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15231,7 +15678,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "qrtr-ns",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15256,7 +15703,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "qseecomd",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15285,7 +15732,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "qti",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15320,7 +15767,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "rmt_storage",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15349,7 +15796,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "seemp_healthd",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15375,7 +15822,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "sensors.qti",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15405,7 +15852,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "slim_daemon",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15443,7 +15890,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "sscrpcd",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15451,9 +15898,6 @@ cc_prebuilt_binary {
             ],
             shared_libs: [
                 "liblog",
-                "libssc",
-                "libprotobuf-cpp-full-vendorcompat",
-                "libsensorslog",
                 "libc++",
                 "libc",
                 "libm",
@@ -15471,7 +15915,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ssgqmigd",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm: {
             srcs: [
@@ -15495,7 +15939,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ssgtzd",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15532,7 +15976,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "tftp_server",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15559,7 +16003,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "thermal-engine",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15587,7 +16031,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "time_daemon",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15615,7 +16059,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vppservice",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15649,7 +16093,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "xtra-daemon",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15687,7 +16131,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "xtwifi-client",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15726,7 +16170,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "xtwifi-inet-agent",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [
@@ -15755,7 +16199,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "dpmd",
-    owner: "zte",
+    owner: "oppo",
     target: {
         android_arm64: {
             srcs: [

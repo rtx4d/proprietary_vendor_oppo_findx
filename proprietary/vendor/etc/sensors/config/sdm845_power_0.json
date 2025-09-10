@@ -1,6 +1,6 @@
 {
   "config":{
-    "hw_platform": ["MTP", "Surf","HDK"],
+    "hw_platform": ["MTP", "Surf", "QRD", "HDK"],
     "soc_id": ["321", "341"]
   },
   "power":{
@@ -366,8 +366,8 @@
         "sleep_dir":{ "type": "int", "ver": "0",
           "data": "0"
         },
-        "sleep_pull":{ "type": "int", "ver": "0",
-          "data": "2"
+        "sleep_pull":{ "type": "int", "ver": "1",
+          "data": "3"
         },
         "sleep_drive":{ "type": "int", "ver": "0",
           "data": "3"

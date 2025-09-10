@@ -42,10 +42,13 @@
         "data": "1"
       },
       "num_rail":{ "type": "int", "ver": "0",
-        "data": "1"
+        "data": "2"
       },
       "rail_on_state":{ "type": "int", "ver": "0",
         "data": "1"
+      },
+      "vdd_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vdd"
       },
       "vddio_rail":{ "type": "str", "ver": "0",
         "data": "/pmic/client/sensor_vddio"
@@ -57,10 +60,10 @@
     ".orient":{
       "owner": "sns_ak0991x",
       "x":{ "type": "str", "ver": "1",
-        "data": "-y"
+        "data": "+x"
       },
       "y":{ "type": "str", "ver": "1",
-        "data": "+x"
+        "data": "+y"
       },
       "z":{ "type": "str", "ver": "1",
         "data": "+z"
@@ -69,51 +72,6 @@
     ".mag":{
       "owner": "sns_ak0991x",
       ".fac_cal":{
-        "owner": "sns_ak0991x",
-        ".corr_mat":{
-          "owner": "sns_ak0991x",
-          "0_0":{ "type": "flt", "ver": "0",
-            "data": "1.0262"
-          },
-          "0_1":{ "type": "flt", "ver": "0",
-            "data": "0.0451"
-          },
-          "0_2":{ "type": "flt", "ver": "0",
-            "data": "0.0089"
-          },
-          "1_0":{ "type": "flt", "ver": "0",
-            "data": "0.0451"
-          },
-          "1_1":{ "type": "flt", "ver": "0",
-            "data": "1.0414"
-          },
-          "1_2":{ "type": "flt", "ver": "0",
-            "data": " -0.0118"
-          },
-          "2_0":{ "type": "flt", "ver": "0",
-            "data": "0.0089"
-          },
-          "2_1":{ "type": "flt", "ver": "0",
-            "data": "-0.0118"
-          },
-          "2_2":{ "type": "flt", "ver": "0",
-            "data": "0.9324"
-          }
-        },
-        ".bias":{
-          "owner": "sns_ak0991x",
-          "x":{ "type": "flt", "ver": "0",
-            "data": "0.0"
-          },
-          "y":{ "type": "flt", "ver": "0",
-            "data": "0.0"
-          },
-          "z":{ "type": "flt", "ver": "0",
-            "data": "0.0"
-          }
-        }
-      },
-      ".fac_cal_2":{
         "owner": "sns_ak0991x",
         ".corr_mat":{
           "owner": "sns_ak0991x",
