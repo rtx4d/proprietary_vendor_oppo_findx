@@ -459,6 +459,7 @@ PRODUCT_PACKAGES += \
     libcom.qti.chinodeutils \
     libconfigdb \
     libcpion \
+    libcvface_api \
     libdataitems \
     libdisp-aba \
     libdisplayqos \
