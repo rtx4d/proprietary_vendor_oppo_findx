@@ -7,6 +7,7 @@ soong_namespace {
         "device/oppo/findx",
         "hardware/qcom-caf/sdm845",
         "hardware/qcom-caf/wlan",
+        "hardware/qcom/wlan/legacy",
         "vendor/qcom/opensource/commonsys-intf/display",
         "vendor/qcom/opensource/commonsys/display",
         "vendor/qcom/opensource/dataservices",
@@ -1165,6 +1166,38 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libminksocket",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libminksocket.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libminksocket.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -8278,33 +8311,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libminksocket",
-    owner: "oppo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libminksocket.so",
-            ],
-            shared_libs: [
-                "libqrtr",
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmmcamera_faceproc",
     owner: "oppo",
     strip: {
@@ -8835,33 +8841,7 @@ cc_prebuilt_library_shared {
                 "libdiag",
                 "liblog",
                 "qtimutex",
-                "libril-qc-logger",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libqcrildatactl",
-    owner: "oppo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqcrildatactl.so",
-            ],
-            shared_libs: [
-                "libqmi_cci",
-                "libqmiservices",
+                "libsettings",
                 "libc++",
                 "libc",
                 "libm",
@@ -9109,7 +9089,11 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libril-qc-hal-qmi.so",
             ],
             shared_libs: [
+                "vendor.oppo.hardware.radio.oppoappradio@1.0",
+                "vendor.oppo.hardware.radio.opporadio@1.0",
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "vendor.qti.hardware.radio.ims@1.0_vendor",
                 "vendor.qti.hardware.radio.ims@1.1_vendor",
                 "vendor.qti.hardware.radio.ims@1.2_vendor",
@@ -9125,29 +9109,32 @@ cc_prebuilt_library_shared {
                 "vendor.qti.hardware.radio.uim_remote_server@1.0",
                 "vendor.qti.hardware.radio.uim_remote_client@1.0",
                 "vendor.qti.hardware.radio.uim_remote_client@1.1",
-                "vendor.qti.hardware.radio.uim_remote_client@1.2",
                 "vendor.qti.hardware.radio.lpa@1.0",
+                "vendor.qti.hardware.data.connection@1.0_vendor",
+                "vendor.qti.hardware.data.connection@1.1_vendor",
                 "vendor.qti.hardware.radio.qtiradio@1.0",
                 "vendor.qti.hardware.radio.qtiradio@2.0",
                 "vendor.qti.hardware.radio.qtiradio@2.1",
                 "vendor.qti.hardware.radio.qtiradio@2.2",
                 "vendor.qti.hardware.radio.qtiradio@2.3",
-                "vendor.qti.hardware.radio.qtiradio@2.4",
+                "vendor.qti.hardware.data.iwlan@1.0_vendor",
                 "android.hardware.radio@1.0",
                 "android.hardware.radio.config@1.0",
                 "android.hardware.radio.config@1.1",
                 "android.hardware.radio.config@1.2",
                 "libqcrilFramework",
                 "android.hardware.secure_element@1.0",
-                "android.hardware.secure_element@1.1",
-                "android.hardware.secure_element@1.2",
                 "vendor.qti.hardware.radio.internal.deviceinfo@1.0",
                 "libdsutils",
                 "libcutils",
                 "liblog",
                 "libutils",
                 "qcrild_librilutils",
+                "libril-qc-radioconfig",
+                "libril-qc-ltedirectdisc",
+                "libril-qcril-hook-oem",
                 "libqmi_cci",
+                "libqmi",
                 "libqmi_client_qmux",
                 "libdiag",
                 "libhardware_legacy",
@@ -9160,15 +9147,14 @@ cc_prebuilt_library_shared {
                 "libbinder",
                 "libmdmdetect",
                 "libperipheral_client",
-                "libril-qc-logger",
+                "libsettings",
                 "android.hardware.radio@1.1",
                 "android.hardware.radio@1.2",
                 "android.hardware.radio@1.3",
                 "android.hardware.radio@1.4",
-                "android.hardware.radio@1.5",
                 "android.hardware.radio.deprecated@1.0",
                 "qtimutex",
-                "libprotobuf-cpp-full-3.9.1-vendorcompat",
+                "libprotobuf-cpp-full-vendorcompat",
                 "libvndksupport",
                 "libbase",
                 "libz",
@@ -9184,37 +9170,7 @@ cc_prebuilt_library_shared {
                 "libdsi_netctrl",
                 "libqdp",
                 "liblqe",
-                "vendor.qti.hardware.data.iwlan@1.0_vendor",
-                "vendor.qti.hardware.data.connection@1.0_vendor",
-                "vendor.qti.hardware.data.connection@1.1_vendor",
                 "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libril-qc-logger",
-    owner: "oppo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libril-qc-logger.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libc++",
-                "libdiag",
                 "libc",
                 "libm",
                 "libdl",
@@ -9608,7 +9564,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libc++",
                 "libdiag",
-                "libprotobuf-cpp-full-3.9.1-vendorcompat",
+                "libprotobuf-cpp-full-vendorcompat",
                 "libc",
                 "libm",
                 "libdl",
@@ -10162,7 +10118,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "qtimutex",
                 "libqcrilFramework",
-                "libril-qc-logger",
+                "libsettings",
                 "liblog",
                 "libc++",
                 "libc",
@@ -10618,6 +10574,66 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.oppo.hardware.radio.oppoappradio@1.0",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.oppo.hardware.radio.oppoappradio@1.0.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.oppo.hardware.radio.opporadio@1.0",
+    owner: "oppo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.oppo.hardware.radio.opporadio@1.0.so",
             ],
             shared_libs: [
                 "libhidlbase",
@@ -11491,6 +11507,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -11519,6 +11537,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -11769,6 +11789,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -11797,6 +11819,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -11825,6 +11849,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -11853,6 +11879,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -11883,6 +11911,8 @@ cc_prebuilt_library_shared {
                 "android.hardware.radio@1.0",
                 "vendor.qti.hardware.radio.qtiradio@1.0",
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -11914,6 +11944,8 @@ cc_prebuilt_library_shared {
                 "vendor.qti.hardware.radio.qtiradio@1.0",
                 "vendor.qti.hardware.radio.qtiradio@2.0",
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -11946,6 +11978,8 @@ cc_prebuilt_library_shared {
                 "vendor.qti.hardware.radio.qtiradio@2.0",
                 "vendor.qti.hardware.radio.qtiradio@2.1",
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -11979,41 +12013,8 @@ cc_prebuilt_library_shared {
                 "vendor.qti.hardware.radio.qtiradio@2.1",
                 "vendor.qti.hardware.radio.qtiradio@2.2",
                 "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.radio.qtiradio@2.4",
-    owner: "oppo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so",
-            ],
-            shared_libs: [
-                "android.hardware.radio@1.0",
-                "android.hardware.radio@1.1",
-                "vendor.qti.hardware.radio.qtiradio@1.0",
-                "vendor.qti.hardware.radio.qtiradio@2.0",
-                "vendor.qti.hardware.radio.qtiradio@2.1",
-                "vendor.qti.hardware.radio.qtiradio@2.2",
-                "vendor.qti.hardware.radio.qtiradio@2.3",
-                "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -12042,6 +12043,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -12071,6 +12074,8 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "vendor.qti.hardware.radio.uim@1.0",
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -12101,6 +12106,8 @@ cc_prebuilt_library_shared {
                 "vendor.qti.hardware.radio.uim@1.0",
                 "vendor.qti.hardware.radio.uim@1.1",
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -12129,6 +12136,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -12158,36 +12167,8 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "vendor.qti.hardware.radio.uim_remote_client@1.0",
                 "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.radio.uim_remote_client@1.2",
-    owner: "oppo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so",
-            ],
-            shared_libs: [
-                "vendor.qti.hardware.radio.uim_remote_client@1.0",
-                "vendor.qti.hardware.radio.uim_remote_client@1.1",
-                "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -12216,6 +12197,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -14068,20 +14051,32 @@ android_app_import {
 }
 
 android_app_import {
-    name: "PowerOffAlarm",
+    name: "QtiTelephonyService",
     owner: "oppo",
-    apk: "proprietary/system_ext/app/PowerOffAlarm/PowerOffAlarm.apk",
+    apk: "proprietary/product/app/QtiTelephonyService/QtiTelephonyService.apk",
     certificate: "platform",
     dex_preopt: {
         enabled: false,
     },
-    system_ext_specific: true,
+    product_specific: true,
 }
 
 android_app_import {
-    name: "QtiTelephonyService",
+    name: "qcrilmsgtunnel",
     owner: "oppo",
-    apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
+    apk: "proprietary/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "PowerOffAlarm",
+    owner: "oppo",
+    apk: "proprietary/system_ext/app/PowerOffAlarm/PowerOffAlarm.apk",
     certificate: "platform",
     dex_preopt: {
         enabled: false,
@@ -14124,18 +14119,6 @@ android_app_import {
     system_ext_specific: true,
 }
 
-android_app_import {
-    name: "qcrilmsgtunnel",
-    owner: "oppo",
-    apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
-    certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-    system_ext_specific: true,
-}
-
 dex_import {
     name: "audiosphere",
     owner: "oppo",
@@ -14150,6 +14133,15 @@ dex_import {
     jars: [
         "proprietary/system/framework/tcmclient.jar",
     ],
+}
+
+dex_import {
+    name: "qcrilhook",
+    owner: "oppo",
+    jars: [
+        "proprietary/product/framework/qcrilhook.jar",
+    ],
+    product_specific: true,
 }
 
 dex_import {
@@ -14202,15 +14194,6 @@ dex_import {
     owner: "oppo",
     jars: [
         "proprietary/system_ext/framework/dpmapi.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "qcrilhook",
-    owner: "oppo",
-    jars: [
-        "proprietary/system_ext/framework/qcrilhook.jar",
     ],
     system_ext_specific: true,
 }
@@ -14332,9 +14315,10 @@ cc_prebuilt_binary {
                 "libqmiservices",
                 "libqmi_cci",
                 "liblog",
-                "libavservices_minijail",
                 "libbase",
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "vendor.qti.hardware.radio.atcmdfwd@1.0",
                 "libc++",
                 "libc",
@@ -14360,19 +14344,20 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/adpl",
             ],
             shared_libs: [
-                "libc",
                 "liblog",
-                "libdiag",
-                "libdsutils",
                 "librmnetctl",
                 "libqmi_cci",
+                "libdsutils",
+                "libdiag",
                 "libqmiservices",
+                "libqmi",
                 "libnetutils",
                 "libcutils",
                 "libqmi_client_qmux",
                 "libqmi_encdec",
                 "libqcmaputils",
                 "libc++",
+                "libc",
                 "libm",
                 "libdl",
             ],
@@ -15154,6 +15139,8 @@ cc_prebuilt_binary {
                 "libandroid_net",
                 "libutils",
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "libc++",
                 "libc",
                 "libm",
@@ -15162,6 +15149,7 @@ cc_prebuilt_binary {
         },
     },
     compile_multilib: "64",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -15241,33 +15229,6 @@ cc_prebuilt_binary {
                 "liblog",
                 "libc++",
                 "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "ks",
-    owner: "oppo",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/ks",
-            ],
-            shared_libs: [
-                "libc",
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libc++",
                 "libm",
                 "libdl",
             ],
@@ -15451,14 +15412,15 @@ cc_prebuilt_binary {
                 "libnlnetmgr",
                 "libnetmgr",
                 "libnetmgr_common",
+                "libqmi",
                 "libqmiservices",
-                "libqmi_common_so",
                 "libqmi_cci",
+                "libqmi_common_so",
                 "libqmi_client_qmux",
                 "libqmi_client_helper",
-                "libqmi",
                 "libutils",
                 "libhidlbase",
+                "libhidltransport",
                 "libandroid_net",
                 "android.system.net.netd@1.1",
                 "libqti_vndfwk_detect",
@@ -15765,19 +15727,20 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/qti",
             ],
             shared_libs: [
-                "libc",
                 "liblog",
-                "libdiag",
-                "libdsutils",
                 "librmnetctl",
                 "libqmi_cci",
+                "libdsutils",
+                "libdiag",
                 "libqmiservices",
+                "libqmi",
                 "libnetutils",
                 "libcutils",
                 "libqmi_client_qmux",
                 "libqmi_encdec",
                 "libqcmaputils",
                 "libc++",
+                "libc",
                 "libm",
                 "libdl",
             ],
@@ -15805,6 +15768,8 @@ cc_prebuilt_binary {
                 "libcutils",
                 "liblog",
                 "libmdmdetect",
+                "libcrypto",
+                "libssl",
                 "libc++",
                 "libc",
                 "libm",
@@ -15967,32 +15932,20 @@ cc_prebuilt_binary {
     name: "ssgtzd",
     owner: "oppo",
     target: {
-        android_arm64: {
+        android_arm: {
             srcs: [
                 "proprietary/vendor/bin/ssgtzd",
             ],
             shared_libs: [
-                "libqcbor",
-                "libminksocket",
-                "libminkdescriptor",
                 "liblog",
-                "libjsoncpp",
-                "libcutils",
-                "libQSEEComAPI",
-                "libcurl",
-                "libqmi",
-                "libqmi_common_so",
-                "libqmi_csi",
-                "libqmi_cci",
-                "libdsi_netctrl",
-                "libc++",
-                "libc",
+                "libminksocket",
                 "libm",
+                "libc",
                 "libdl",
             ],
         },
     },
-    compile_multilib: "64",
+    compile_multilib: "32",
     strip: {
         none: true,
     },
