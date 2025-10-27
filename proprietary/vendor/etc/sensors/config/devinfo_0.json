@@ -1,8 +1,8 @@
 {
   "config":
   {
-    "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK"],
-    "soc_id": ["291", "246", "305", "321", "336", "341", "360"]
+    "hw_platform": ["QRD", "MTP", "Dragon", "Surf"],
+    "soc_id": ["347","300","301","321", "341"]
   },
   "oppo_devinfo":{
     "owner": "oppo",
@@ -24,7 +24,7 @@
         "data": "stk3x3x_1_platform.ps.fac_cal"
       }
     },
-    ".gsesnor":{
+    ".gsensor":{
       "owner": "oppo",
       "cal_path":{ "type": "str", "ver": "0",
         "data": "defult"
@@ -39,7 +39,7 @@
     ".gyro":{
       "owner": "oppo",
       "cal_path":{ "type": "str", "ver": "0",
-        "data": "sdefult"
+        "data": "defult"
       }
     }
   }
