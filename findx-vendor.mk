@@ -6,41 +6,88 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oppo/findx
 
 PRODUCT_COPY_FILES += \
-    vendor/oppo/findx/proprietary/product/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qcrilhook.xml \
-    vendor/oppo/findx/proprietary/product/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephonyservice.xml \
-    vendor/oppo/findx/proprietary/system/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/audiosphere.xml \
+    vendor/oppo/findx/proprietary/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/oppo/findx/proprietary/odm/etc/acdbdata/Codec_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Codec_cal.acdb \
+    vendor/oppo/findx/proprietary/odm/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/General_cal.acdb \
+    vendor/oppo/findx/proprietary/odm/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Global_cal.acdb \
+    vendor/oppo/findx/proprietary/odm/etc/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Handset_cal.acdb \
+    vendor/oppo/findx/proprietary/odm/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/oppo/findx/proprietary/odm/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Headset_cal.acdb \
+    vendor/oppo/findx/proprietary/odm/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Speaker_cal.acdb \
+    vendor/oppo/findx/proprietary/odm/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/oppo/findx/proprietary/odm/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
+    vendor/oppo/findx/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc \
+    vendor/oppo/findx/proprietary/odm/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc \
+    vendor/oppo/findx/proprietary/odm/firmware/fastchg/17107/oppo_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/17107/oppo_vooc_fw.bin \
+    vendor/oppo/findx/proprietary/odm/firmware/fastchg/17127/oppo_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/17127/oppo_vooc_fw.bin \
+    vendor/oppo/findx/proprietary/odm/firmware/tp/17107/FW_S6SY761_SAMSUNG.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/17107/FW_S6SY761_SAMSUNG.bin \
+    vendor/oppo/findx/proprietary/odm/firmware/tp/17107/FW_S6SY761_SAMSUNG_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/17107/FW_S6SY761_SAMSUNG_FAE.bin \
+    vendor/oppo/findx/proprietary/odm/firmware/tp/17107/LIMIT_S6SY761_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/17107/LIMIT_S6SY761_SAMSUNG.img \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/alipay.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b00 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/alipay.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b01 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/alipay.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b02 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/alipay.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b03 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/alipay.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b04 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/alipay.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b05 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/alipay.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b06 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/alipay.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b07 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/alipay.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.mdt \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cppf.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cppf.b00 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cppf.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cppf.b01 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cppf.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cppf.b02 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cppf.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cppf.b03 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cppf.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cppf.b04 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cppf.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cppf.b05 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cppf.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cppf.b06 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cppf.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cppf.b07 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cppf.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cppf.mdt \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cryptoeng.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b00 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cryptoeng.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b01 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cryptoeng.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b02 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cryptoeng.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b03 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cryptoeng.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b04 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cryptoeng.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b05 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cryptoeng.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b06 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cryptoeng.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b07 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/cryptoeng.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.mdt \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/megviifacepp_model_tee:$(TARGET_COPY_OUT_ODM)/vendor/firmware/megviifacepp_model_tee \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/portrait64.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/portrait64.b00 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/portrait64.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/portrait64.b01 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/portrait64.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/portrait64.b02 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/portrait64.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/portrait64.b03 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/portrait64.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/portrait64.b04 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/portrait64.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/portrait64.b05 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/portrait64.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/portrait64.b06 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/portrait64.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/portrait64.b07 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/portrait64.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/portrait64.mdt \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/seccamfacereg64.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/seccamfacereg64.b00 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/seccamfacereg64.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/seccamfacereg64.b01 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/seccamfacereg64.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/seccamfacereg64.b02 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/seccamfacereg64.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/seccamfacereg64.b03 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/seccamfacereg64.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/seccamfacereg64.b04 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/seccamfacereg64.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/seccamfacereg64.b05 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/seccamfacereg64.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/seccamfacereg64.b06 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/seccamfacereg64.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/seccamfacereg64.b07 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/seccamfacereg64.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/seccamfacereg64.mdt \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/widevine.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/widevine.b00 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/widevine.b01 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/widevine.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/widevine.b02 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/widevine.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/widevine.b03 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/widevine.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/widevine.b04 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/widevine.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/widevine.b05 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/widevine.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/widevine.b06 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/widevine.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/widevine.b07 \
+    vendor/oppo/findx/proprietary/odm/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/widevine.mdt \
     vendor/oppo/findx/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/oppo/findx/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
+    vendor/oppo/findx/proprietary/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/audiosphere.xml \
     vendor/oppo/findx/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/oppo/findx/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
+    vendor/oppo/findx/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
+    vendor/oppo/findx/proprietary/system_ext/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_libpermissions.xml \
     vendor/oppo/findx/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/17107/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/17107/Bluetooth_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/17107/Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/17107/Codec_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/17107/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/17107/General_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/17107/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/17107/Global_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/17107/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/17107/Handset_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/17107/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/17107/Hdmi_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/17107/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/17107/Headset_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/17107/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/17107/Speaker_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/MTP/MTP_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Codec_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/QRD/QRD_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Codec_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_workspaceFile.qwsp \
-    vendor/oppo/findx/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/oppo/findx/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
+    vendor/oppo/findx/proprietary/system_ext/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephonyservice.xml \
     vendor/oppo/findx/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/oppo/findx/proprietary/vendor/etc/camera/3DMM.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/3DMM.model \
     vendor/oppo/findx/proprietary/vendor/etc/camera/Charming.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Charming.cng \
@@ -65,8 +112,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/findx/proprietary/vendor/etc/camera/oppo_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oppo_camera_config.xml \
     vendor/oppo/findx/proprietary/vendor/etc/camera/skinSeg.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/skinSeg.model \
     vendor/oppo/findx/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
-    vendor/oppo/findx/proprietary/vendor/etc/cne/profileSlm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileSlm.xml \
-    vendor/oppo/findx/proprietary/vendor/etc/cne/slm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/slm.conf \
+    vendor/oppo/findx/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
+    vendor/oppo/findx/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
     vendor/oppo/findx/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/oppo/findx/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/oppo/findx/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -97,9 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/findx/proprietary/vendor/etc/configstore/vpp.configstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/configstore/vpp.configstore.xml \
     vendor/oppo/findx/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/oppo/findx/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
-    vendor/oppo/findx/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
     vendor/oppo/findx/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
-    vendor/oppo/findx/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/oppo/findx/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/oppo/findx/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
     vendor/oppo/findx/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
@@ -120,20 +165,25 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/findx/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
     vendor/oppo/findx/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/oppo/findx/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
-    vendor/oppo/findx/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
-    vendor/oppo/findx/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
+    vendor/oppo/findx/proprietary/vendor/etc/init/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-service.rc \
+    vendor/oppo/findx/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
+    vendor/oppo/findx/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/oppo/findx/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/oppo/findx/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
+    vendor/oppo/findx/proprietary/vendor/etc/init/vendor.qti.hardware.qccvndhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qccvndhal@1.0-service.rc \
+    vendor/oppo/findx/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/oppo/findx/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/oppo/findx/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/oppo/findx/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/oppo/findx/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
+    vendor/oppo/findx/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
+    vendor/oppo/findx/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/oppo/findx/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/oppo/findx/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/oppo/findx/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/oppo/findx/proprietary/vendor/etc/qdcm_calib_data_dsi_oppo17107_samsung_sofeg02_fhd_dsc_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_dsi_oppo17107_samsung_sofeg02_fhd_dsc_cmd.xml \
-    vendor/oppo/findx/proprietary/vendor/etc/scve/facereco/gModel.dat:$(TARGET_COPY_OUT_VENDOR)/etc/scve/facereco/gModel.dat \
     vendor/oppo/findx/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
+    vendor/oppo/findx/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/ak991x_polling_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_polling_0.json \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/bmi160_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmi160_0.json \
@@ -159,15 +209,18 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_bring_to_ear.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_bring_to_ear.json \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_ccd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_ccd.json \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_ccd_v2_walk.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_ccd_v2_walk.json \
+    vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_ccd_v3_1_walk.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_ccd_v3_1_walk.json \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_ccd_v3_walk.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_ccd_v3_walk.json \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_cm.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_cm.json \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_dae.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_dae.json \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_device_orient.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_device_orient.json \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_diag_filter.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_diag_filter.json \
+    vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_direct_channel.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_direct_channel.json \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_distance_bound.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_distance_bound.json \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_dpc.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_dpc.json \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_facing.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_facing.json \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_fmv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_fmv.json \
+    vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_fmv_legacy.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_fmv_legacy.json \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_geomag_rv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_geomag_rv.json \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_gyro_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_gyro_cal.json \
     vendor/oppo/findx/proprietary/vendor/etc/sensors/config/sns_heart_rate.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_heart_rate.json \
@@ -204,8 +257,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/findx/proprietary/vendor/firmware/audience/ia6xx/ia6xx-bargein-uart.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/audience/ia6xx/ia6xx-bargein-uart.bin \
     vendor/oppo/findx/proprietary/vendor/firmware/audience/ia6xx/ia6xx-vs-hw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/audience/ia6xx/ia6xx-vs-hw.bin \
     vendor/oppo/findx/proprietary/vendor/firmware/audience/ia6xx/ia6xx-vs-uart.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/audience/ia6xx/ia6xx-vs-uart.bin \
-    vendor/oppo/findx/proprietary/vendor/firmware/fastchg/17107/oppo_vooc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fastchg/17107/oppo_vooc_fw.bin \
-    vendor/oppo/findx/proprietary/vendor/firmware/fastchg/17127/oppo_vooc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fastchg/17127/oppo_vooc_fw.bin \
     vendor/oppo/findx/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
     vendor/oppo/findx/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
     vendor/oppo/findx/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
@@ -213,13 +264,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/findx/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
     vendor/oppo/findx/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/oppo/findx/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
-    vendor/oppo/findx/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
-    vendor/oppo/findx/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
     vendor/oppo/findx/proprietary/vendor/firmware/ois_bu24218gwl.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_bu24218gwl.coeff \
     vendor/oppo/findx/proprietary/vendor/firmware/ois_bu24218gwl.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_bu24218gwl.prog \
-    vendor/oppo/findx/proprietary/vendor/firmware/tp/17107/FW_S6SY761_SAMSUNG.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/17107/FW_S6SY761_SAMSUNG.bin \
-    vendor/oppo/findx/proprietary/vendor/firmware/tp/17107/FW_S6SY761_SAMSUNG_FAE.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/17107/FW_S6SY761_SAMSUNG_FAE.bin \
-    vendor/oppo/findx/proprietary/vendor/firmware/tp/17107/LIMIT_S6SY761_SAMSUNG.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/17107/LIMIT_S6SY761_SAMSUNG.img \
     vendor/oppo/findx/proprietary/vendor/lib64/camera/com.qti.sensormodule.liteon_ov7251.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.liteon_ov7251.bin \
     vendor/oppo/findx/proprietary/vendor/lib64/camera/com.qti.sensormodule.orbbec_mx6300.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.orbbec_mx6300.bin \
     vendor/oppo/findx/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_imx376k.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_imx376k.bin \
@@ -239,7 +285,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/findx/proprietary/vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/2_version_add_wps_config.sql \
     vendor/oppo/findx/proprietary/vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_update_wps_config.sql \
     vendor/oppo/findx/proprietary/vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_update_ecc_table.sql \
-    vendor/oppo/findx/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
+    vendor/oppo/findx/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql \
+    vendor/oppo/findx/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql \
+    vendor/oppo/findx/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql \
+    vendor/oppo/findx/proprietary/vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/8_version_update_ecc_table.sql \
+    vendor/oppo/findx/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
     eglSubDriverAndroid \
@@ -270,7 +320,6 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libmdmdetect \
-    libminksocket \
     libpvr \
     libqcmaputils \
     libqmi \
@@ -281,17 +330,12 @@ PRODUCT_PACKAGES += \
     libqmi_csi \
     libqmi_encdec \
     libqmiservices \
-    libscveBlobDescriptor \
-    libscveBlobDescriptor_stub \
     libscveCommon \
     libscveCommon_stub \
     libscveObjectSegmentation \
     libscveObjectSegmentation_stub \
     libscveObjectTracker \
     libscveObjectTracker_stub \
-    libscvePanorama \
-    libscvePanorama_lite \
-    libscveScan3D \
     libsdsprpc \
     libsensorslog \
     libsns_device_mode_stub \
@@ -303,12 +347,14 @@ PRODUCT_PACKAGES += \
     libssc_default_listener \
     libsysmon_cdsp_skel \
     libthermalclient \
-    libtime_genoff \
     libvppclient \
+    libvpphcp \
     libvpphvx \
     libvpplibrary \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
+    sound_trigger.primary.sdm845 \
+    sound_trigger_ia6xx.primary.default \
     libOmxVpp \
     libacdb-fts \
     libacdbloader \
@@ -328,7 +374,6 @@ PRODUCT_PACKAGES += \
     libgcs-ipc \
     libgcs-osal \
     libgcs \
-    liblistenjni \
     liblistensoundmodel2 \
     libmulawdec \
     libqtigef \
@@ -385,30 +430,33 @@ PRODUCT_PACKAGES += \
     com.slam.node.process \
     com.vidhance.node.eis \
     com.vidhance.stats.aec_dmbr \
-    com.qualcomm.qti.ant@1.0_vendor \
     com.qualcomm.qti.dpm.api@1.0_vendor \
-    com.qualcomm.qti.imscmservice@1.0_vendor \
+    com.qualcomm.qti.imscmservice@1.0 \
     com.qualcomm.qti.imscmservice@2.0_vendor \
     com.qualcomm.qti.imscmservice@2.1_vendor \
     com.qualcomm.qti.imscmservice@2.2_vendor \
     com.qualcomm.qti.uceservice@2.0_vendor \
     com.qualcomm.qti.uceservice@2.1_vendor \
-    com.qualcomm.qti.uceservice@2.2_vendor \
+    com.qualcomm.qti.uceservice@2.2 \
+    com.qualcomm.qti.uceservice@2.3 \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
     android.hardware.keymaster@3.0-impl-qti \
     camera.qcom \
     com.qti.chi.override \
-    com.qualcomm.qti.ant@1.0-impl \
+    vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl \
     vendor.oppo.hardware.camera.oppoHalAssist@1.0-impl \
-    vendor.qti.esepowermanager@1.0-impl \
+    vendor.qti.esepowermanager@1.1-impl \
     vendor.qti.gnss@4.0-impl \
     vendor.qti.hardware.alarm@1.0-impl \
-    vendor.qti.hardware.bluetooth_audio@2.0-impl \
-    vendor.qti.hardware.bluetooth_sar@1.0-impl \
+    vendor.qti.hardware.bluetooth_audio@2.1-impl \
+    vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
+    vendor.qti.hardware.btconfigstore@2.0-impl \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
+    vendor.qti.hardware.qccvndhal@1.0-impl \
+    vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
@@ -429,14 +477,32 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
+    libOppoAPSMemMgr \
     libPolarrRender \
     libQTEEConnector_vendor \
     libSecureUILib \
     libSonyIMX471RmscLibrary \
     libStDrvInt \
     libaoa \
+    libarcsoft_beautyshot \
+    libarcsoft_dualcam_bokeh_api \
+    libarcsoft_dualcam_refocus_left \
+    libarcsoft_dualcam_refocus_right \
+    libarcsoft_hdr_couple_api \
+    libarcsoft_hdr_denoise_api \
+    libarcsoft_hdrplus_hvx_stub \
+    libarcsoft_high_dynamic_range \
+    libarcsoft_high_dynamic_range_couple \
+    libarcsoft_lensstaindetection \
+    libarcsoft_low_light_hdr \
+    libarcsoft_smart_denoise \
+    libarcsoft_super_night_raw \
+    libasn1cper \
+    libasn1crt \
+    libasn1crtx \
     libbatching \
     libbluetooth_audio_session_qti \
+    libbluetooth_audio_session_qti_2_1 \
     libbokehclient \
     libbtnv \
     libcacertclient \
@@ -448,6 +514,7 @@ PRODUCT_PACKAGES += \
     libcamxstatscore \
     libcamxswprocessalgo \
     libcamxtintlessalgo \
+    libcdfw \
     libcdfw_remote_api \
     libcne \
     libcneapiclient \
@@ -457,6 +524,7 @@ PRODUCT_PACKAGES += \
     libconfigdb \
     libcpion \
     libcvface_api \
+    libd++ \
     libdataitems \
     libdisp-aba \
     libdisplayqos \
@@ -471,7 +539,6 @@ PRODUCT_PACKAGES += \
     libgps.utils \
     libhdr_tm \
     libhexagon_nn_stub \
-    libhypnusclient \
     libizat_client_api \
     libizat_core \
     libjnihelper \
@@ -488,10 +555,10 @@ PRODUCT_PACKAGES += \
     liblowi_client \
     liblowi_wifihal \
     liblqe \
+    libmdmimgload \
     libmdsprpc \
     libminkdescriptor \
-    libmmcamera_faceproc \
-    libmmcamera_faceproc2 \
+    libminksocket \
     libmmosal_vendor \
     libmpbase \
     libnetmgr \
@@ -501,6 +568,7 @@ PRODUCT_PACKAGES += \
     libnlnetmgr \
     libocam_common \
     libocam_snapshot_intf \
+    liboppo_log_print \
     liboppo_platform_hwi \
     libopposfr \
     libpdmapper \
@@ -509,6 +577,7 @@ PRODUCT_PACKAGES += \
     libqcbor \
     libqcc_file_agent \
     libqcrilFramework \
+    libqcrildatactl \
     libqdi \
     libqdma_file_agent \
     libqdp \
@@ -518,6 +587,7 @@ PRODUCT_PACKAGES += \
     libqsocket \
     librcc \
     libril-qc-hal-qmi \
+    libril-qc-logger \
     libril-qc-ltedirectdisc \
     libril-qc-radioconfig \
     libril-qcril-hook-oem \
@@ -538,16 +608,19 @@ PRODUCT_PACKAGES += \
     libssd \
     libstface_fd_api \
     libsystem_health_mon \
+    libtime_genoff \
     libtinyxml2_1 \
     libtrustedapploader \
     libtzdrmgenprov \
     libvidhance \
     libwms \
     libwqe \
-    libwvhidl \
     libxml \
     libxtadapter \
-    libwvdrmengine \
+    libxtwifi_server_protocol \
+    libxtwifi_server_protocol_uri_v3 \
+    oplus.sensors.ssc \
+    oplus_btaudio_offload_if \
     qcom.camera.log \
     qcrild_librilutils \
     qtibus \
@@ -563,15 +636,16 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.4 \
     vendor.display.color@1.5 \
     vendor.display.postproc@1.0 \
-    vendor.oppo.hardware.bluetooth_audio@1.0 \
+    vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0 \
     vendor.oppo.hardware.camera.oppoHalAssist@1.0 \
-    vendor.oppo.hardware.hypnus@1.0 \
-    vendor.oppo.hardware.radio.oppoappradio@1.0 \
-    vendor.oppo.hardware.radio.opporadio@1.0 \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
+    vendor.qti.data.factory@2.2 \
+    vendor.qti.data.factory@2.3 \
+    vendor.qti.data.mwqem@1.0 \
     vendor.qti.data.slm@1.0 \
     vendor.qti.esepowermanager@1.0 \
+    vendor.qti.esepowermanager@1.1 \
     vendor.qti.gnss@1.0 \
     vendor.qti.gnss@1.1 \
     vendor.qti.gnss@1.2 \
@@ -582,6 +656,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@4.0 \
     vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
+    vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.cacert@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0_vendor \
     vendor.qti.hardware.data.cne.internal.constants@1.0_vendor \
@@ -591,12 +666,16 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.dynamicdds@1.0_vendor \
     vendor.qti.hardware.data.iwlan@1.0_vendor \
     vendor.qti.hardware.data.latency@1.0 \
+    vendor.qti.hardware.data.lce@1.0 \
     vendor.qti.hardware.data.qmi@1.0_vendor \
     vendor.qti.hardware.fm@1.0 \
+    vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
+    vendor.qti.hardware.qccvndhal@1.0-halimpl \
+    vendor.qti.hardware.qccvndhal@1.0 \
+    vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
-    vendor.qti.hardware.radio.atcmdfwd@1.0 \
     vendor.qti.hardware.radio.ims@1.0_vendor \
     vendor.qti.hardware.radio.ims@1.1_vendor \
     vendor.qti.hardware.radio.ims@1.2_vendor \
@@ -604,27 +683,33 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.ims@1.4_vendor \
     vendor.qti.hardware.radio.ims@1.5 \
     vendor.qti.hardware.radio.ims@1.6 \
+    vendor.qti.hardware.radio.ims@1.7 \
     vendor.qti.hardware.radio.internal.deviceinfo@1.0 \
     vendor.qti.hardware.radio.lpa@1.0 \
+    vendor.qti.hardware.radio.lpa@1.1 \
     vendor.qti.hardware.radio.qcrilhook@1.0 \
     vendor.qti.hardware.radio.qtiradio@1.0 \
     vendor.qti.hardware.radio.qtiradio@2.0 \
     vendor.qti.hardware.radio.qtiradio@2.1 \
     vendor.qti.hardware.radio.qtiradio@2.2 \
     vendor.qti.hardware.radio.qtiradio@2.3 \
+    vendor.qti.hardware.radio.qtiradio@2.4 \
+    vendor.qti.hardware.radio.qtiradio@2.5 \
+    vendor.qti.hardware.radio.qtiradio@2.6 \
     vendor.qti.hardware.radio.uim@1.0 \
     vendor.qti.hardware.radio.uim@1.1 \
     vendor.qti.hardware.radio.uim@1.2 \
     vendor.qti.hardware.radio.uim_remote_client@1.0 \
     vendor.qti.hardware.radio.uim_remote_client@1.1 \
+    vendor.qti.hardware.radio.uim_remote_client@1.2 \
     vendor.qti.hardware.radio.uim_remote_server@1.0 \
     vendor.qti.hardware.sensorscalibrate@1.0 \
-    vendor.qti.hardware.slmadapter@1.0 \
     vendor.qti.hardware.soter@1.0 \
     vendor.qti.hardware.tui_comm@1.0 \
     vendor.qti.ims.callcapability@1.0 \
     vendor.qti.ims.callinfo@1.0_vendor \
     vendor.qti.ims.factory@1.0 \
+    vendor.qti.ims.factory@1.1 \
     vendor.qti.ims.rcsconfig@1.0_vendor \
     vendor.qti.ims.rcsconfig@1.1 \
     vendor.qti.ims.rcsconfig@2.0 \
@@ -632,110 +717,96 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0-service-Impl \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
+    vendor.qti.latency@2.1 \
+    capi_v2_aptX_Classic \
+    capi_v2_aptX_HD \
+    libBeautyShot_skel \
     libFastRPC_UTF_Forward_skel \
     libVC1Dec \
     libVC1DecDsp_skel \
+    libVDHexagonBlurless_skel \
+    libVDHexagonBlurless_v2_skel \
+    libVDHexagonSuperPhoto_skel \
     libapps_mem_heap \
+    libarcsoft_hdrplus_hvx_skel \
+    libcamera_nn_skel \
+    libdepthmap_skel \
     libdspCV_skel \
     libfastcvadsp \
     libfastcvdsp_skel \
     libhexagon_nn_skel \
-    libscveBlobDescriptor_skel \
     libscveObjectSegmentation_skel \
     libscveT2T_skel \
+    libsnpe_dsp_v65_domains_v2_skel \
+    libsnpe_dsp_v66_domains_v2_skel \
     libsns_device_mode_skel \
     libsns_low_lat_stream_skel \
-    com.qualcomm.qti.ant@1.0 \
+    libthread_blur_skel \
     com.qualcomm.qti.dpm.api@1.0 \
-    com.qualcomm.qti.imscmservice@1.0 \
-    com.qualcomm.qti.imscmservice@2.0 \
-    com.qualcomm.qti.imscmservice@2.1 \
-    com.qualcomm.qti.imscmservice@2.2 \
-    com.qualcomm.qti.uceservice@2.0 \
-    com.qualcomm.qti.uceservice@2.1 \
-    com.qualcomm.qti.uceservice@2.2 \
-    com.quicinc.cne.api@1.0 \
-    com.quicinc.cne.api@1.1 \
-    com.quicinc.cne.constants@1.0 \
-    com.quicinc.cne.constants@2.0 \
-    com.quicinc.cne.constants@2.1 \
     lib-imsvideocodec \
     lib-imsvt \
     lib-imsvtextutils \
     lib-imsvtutils \
-    libantradio \
     libdiag_system \
     libdpmctmgr \
     libdpmfdmgr \
     libdpmframework \
     libdpmtcm \
-    libimscamera_jni \
     libimsmedia_jni \
     vendor.qti.diaghal@1.0 \
-    vendor.qti.hardware.data.cne.internal.api@1.0 \
-    vendor.qti.hardware.data.cne.internal.constants@1.0 \
-    vendor.qti.hardware.data.cne.internal.server@1.0 \
-    vendor.qti.hardware.data.connection@1.0 \
-    vendor.qti.hardware.data.connection@1.1 \
-    vendor.qti.hardware.data.dynamicdds@1.0 \
-    vendor.qti.hardware.data.iwlan@1.0 \
-    vendor.qti.hardware.data.qmi@1.0 \
-    vendor.qti.hardware.radio.ims@1.0 \
-    vendor.qti.hardware.radio.ims@1.1 \
-    vendor.qti.hardware.radio.ims@1.2 \
-    vendor.qti.hardware.radio.ims@1.3 \
-    vendor.qti.hardware.radio.ims@1.4 \
-    vendor.qti.ims.callinfo@1.0 \
-    vendor.qti.ims.rcsconfig@1.0 \
     vendor.qti.imsrtpservice@3.0 \
+    vendor.oplus.hardware.orms.ormsHalService@1.0-impl \
+    libbsproxy \
+    libcalib_param_parser \
+    libormshalclient \
+    librobust_match \
+    librobust_solve \
+    libwvhidl \
+    libwvdrmengine \
+    vendor.oplus.hardware.appradio@1.0 \
+    vendor.oplus.hardware.biometrics.face@1.0 \
+    vendor.oplus.hardware.bluetooth_audio@1.0 \
+    vendor.oplus.hardware.ims@1.0 \
+    vendor.oplus.hardware.orms.ormsHalService@1.0 \
+    vendor.oplus.hardware.orms@1.0 \
+    vendor.oplus.hardware.radio@1.0 \
     CneApp \
     IWlanService \
     TimeService \
-    QtiTelephonyService \
-    qcrilmsgtunnel \
     PowerOffAlarm \
-    uceShimService \
-    dpmserviceapp \
+    QtiTelephonyService \
     ims \
-    audiosphere \
+    qcrilmsgtunnel \
     tcmclient \
-    qcrilhook \
+    audiosphere \
     com.qti.dpmframework \
-    com.quicinc.cne.api-V1.1-java \
-    com.quicinc.cne.constants-V1.0-java \
-    com.quicinc.cne.constants-V2.0-java \
-    com.quicinc.cne.constants-V2.1-java \
     dpmapi \
-    vendor.qti.hardware.data.cne.internal.api-V1.0-java \
-    vendor.qti.hardware.data.cne.internal.constants-V1.0-java \
-    vendor.qti.hardware.data.connection-V1.0-java \
-    vendor.qti.hardware.data.connection-V1.1-java \
-    vendor.qti.hardware.data.dynamicdds-V1.0-java \
-    vendor.qti.hardware.data.iwlan-V1.0-java \
-    vendor.qti.hardware.data.qmi-V1.0-java \
+    oplus-ims-ext \
+    qcrilhook \
     android.hardware.gnss@2.1-service-qti.xml \
     android.hardware.neuralnetworks@1.3-service-qti.xml \
-    manifest_android.hardware.drm@1.3-service.widevine.xml \
     vendor.qti.gnss@4.0-service.xml \
-    ATFWD-daemon \
+    manifest_android.hardware.drm@1.3-service.widevine.xml \
+    manifest_oplus_orms.xml \
     adpl \
     adsprpcd \
     cdsprpcd \
     cnd \
     cnss-daemon \
     dpmQmiMgr \
-    hvdcp_opti \
     android.hardware.bluetooth@1.0-service-qti \
-    android.hardware.drm@1.3-service.widevine \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.keymaster@3.0-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti \
     qcrild \
     vendor.display.color@1.0-service \
-    vendor.qti.esepowermanager@1.0-service \
+    vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-service \
+    vendor.qti.esepowermanager@1.1-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
+    vendor.qti.hardware.qccvndhal@1.0-service \
+    vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
     vendor.qti.hardware.sensorscalibrate@1.0-service \
     vendor.qti.hardware.soter@1.0-service \
@@ -745,8 +816,10 @@ PRODUCT_PACKAGES += \
     imsqmidaemon \
     imsrcsd \
     irsc_util \
+    ks \
     loc_launcher \
     lowi-server \
+    mdm_helper \
     mlid \
     mm-pp-dpps \
     msm_irqbalance \
@@ -776,7 +849,10 @@ PRODUCT_PACKAGES += \
     xtra-daemon \
     xtwifi-client \
     xtwifi-inet-agent \
-    dpmd
+    dpmd \
+    android.hardware.drm@1.3-service.widevine \
+    vendor.oplus.hardware.biometrics.face@1.0-service \
+    vendor.oplus.hardware.orms.ormsHalService@1.0-service
 
 PRODUCT_PACKAGES += \
     vendor_lib_libEGL_adreno_so \
